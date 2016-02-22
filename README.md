@@ -36,7 +36,9 @@ The original specification for the code has the following invariant conditions:
 ## Part 1
 
 Your task is to refactor the Student and Course classes to make the code easier to read and modify in the future. The goal isn't to make
-the code as _small_ as possible, but rather to make it as _clear_ and _simple_ as possible. Think carefully about the separation of concerns between the classes. You do not need to modify the test classes.
+the code as _small_ as possible, but rather to make it as _clear_ and _simple_ as possible. Think carefully about the separation of concerns between the classes. You should also pay attention to variable names and rename them if it makes the code clearer. You do not need to modify the test classes.
+
+In addition to refactoring, try to engage in defensive programming. You should identify and fix any gaps where it is possible to use the code incorrectly.
 
 ## Before you’re done…
 
