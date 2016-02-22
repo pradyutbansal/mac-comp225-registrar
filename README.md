@@ -12,7 +12,7 @@ changing its observable behavior.
 
 ## Rules of the exercise
 
-* **This is not a group assignment.** Please review the rules about collaboration vs. copying in [the syllabus](https://moodle.macalester.edu/pluginfile.php/37166/mod_resource/content/2/SyllabusComp225SoftwareDesignDevelopmentSpring2016.pdf).
+* **This is not a group assignment.** Please review the rules about collaboration vs. copying in the syllabus. ([Bret’s syllabus](https://moodle.macalester.edu/pluginfile.php/37166/mod_resource/content/2/SyllabusComp225SoftwareDesignDevelopmentSpring2016.pdf) | [Paul’s syllabus](https://moodle.macalester.edu/pluginfile.php/38330/mod_resource/content/1/Syllabus.pdf)).
 * Use strict defensive programming: make it impossible to get any model object into an illegal state using public methods.
 
 ## Your starting point
