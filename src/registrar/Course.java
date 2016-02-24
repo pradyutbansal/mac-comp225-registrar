@@ -69,7 +69,8 @@ public class Course {
     public void dropStudent(Student s){
         if (enrolledIn.contains(s)) {
             enrolledIn.remove(s);
-            if (waitlist.size() > 0) {
+            if 
+                (waitlist.size() > 0) {
                 Student toEnroll = waitlist.remove(0);
                 enrolledIn.add(toEnroll);
                 toEnroll.enrolledIn.add(this);
