@@ -124,6 +124,17 @@ public class RegistrarTest {
         assertFalse(basketWeaving101.setEnrollmentLimit(8));
     }
 
+
+    @Test(expected = UnsupportedOperationException.class)
+    public void studentCoursesGetterReturnsImmutable() {
+        sally.getCourses().add(comp225);
+    }
+
+    @Test(expected = UnsupportedOperationException.class)
+    public void courseStudentsGetterReturnsImmutable() {
+        comp225.getStudents().add(sally);
+    }
+
     // ------ Drop courses ------
 
     @Test
